@@ -3,10 +3,15 @@
   "version": "1.0.0",
   "description": "React boiletplate for NFQ Academy",
   "main": "src/index.js",
-  "dependencies": {},
+  "dependencies": {
+    "react": "^16.1.1",
+    "react-dom": "^16.1.1",
+    "throttle-debounce": "^1.0.1"
+  },
   "devDependencies": {
     "@babel/core": "^7.0.0-beta.32",
     "@babel/preset-env": "^7.0.0-beta.32",
+    "@babel/preset-react": "^7.0.0-beta.32",
     "@babel/preset-stage-0": "^7.0.0-beta.32",
     "@babel/preset-stage-1": "^7.0.0-beta.32",
     "babel-loader": "^8.0.0-beta.0",
